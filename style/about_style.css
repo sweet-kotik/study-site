@@ -1,0 +1,31 @@
+.mainStyle {
+    background-color: aliceblue;
+    margin-top: 7vh;
+}
+p {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    
+}
+span {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+}
+.spisok {
+    list-style: disc;
+    margin: 10px;
+    font-weight: 900;
+}
+#image_animals {
+    width: 100vi;
+    height: 30vi;
+}
+h2 {
+    margin-top: 25px;
+}
+h2 {
+    font-family: 'Rubik Puddles', cursive;
+    font-weight: 900;
+    font-size: 50px;
+    display: inline;
+}

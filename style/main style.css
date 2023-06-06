@@ -1,0 +1,12 @@
+body {
+    background-color: #a6fff0;
+}
+.textMain {
+    text-align: center;
+}
+.textMain p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2vw;
+    font-weight: 900;
+
+}
