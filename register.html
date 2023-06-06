@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/resister.css">
+        <link rel="stylesheet" href="style/menu style.css">
+        <script src="script/main script.js"></script>
+        <title>Оформление</title>
+    </head>
+    <body>
+        <div class="signup-container">
+            <div class="right-container">
+              <header>
+                <h1>Время оформить вашего питомца у нас! </h1>
+                <div class="set">
+                  <div class="pets-name">
+                    <label for="pets-name">Имя</label>
+                    <input id="pets-name" placeholder="Имя питомца" type="text"></input>
+                  </div>
+                </div>
+                <div class="set">
+                  <div class="pets-breed">
+                    <label for="pets-breed">Кто ты воин?</label>
+                    <input id="pets-breed" placeholder="Вид питомца (Кот и тд)" type="text"></input>
+                  </div>
+                  <div class="pets-birthday">
+                    <label for="pets-birthday">День рождения</label>
+                    <input id="pets-birthday" placeholder="MM/DD/YYYY" type="text"></input>
+                  </div>
+                </div>
+                <div class="set">
+                  <div class="pets-gender">
+                    <label for="pet-gender-female">Пол</label>
+                    <div class="radio-container">
+                      <input id="pet-gender-female" name="pet-gender" type="radio" value="female"></input>
+                      <label for="pet-gender-female">Жен</label>
+                      <input id="pet-gender-male" name="pet-gender" type="radio" value="male"></input>
+                      <label for="pet-gender-male">Муж</label>
+                    </div>
+                  </div>
+                  <div class="pets-spayed-neutered">
+                    <label for="pet-spayed">Кострирован</label>
+                    <div class="radio-container">
+                      <input id="pet-spayed" name="spayed-neutered" type="radio" value="spayed"></input>
+                      <label for="pet-spayed">Да</label>
+                      <input id="pet-neutered" name="spayed-neutered" type="radio" value="neutered"></input>
+                      <label for="pet-neutered">Нет</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="pets-weight">
+                  <label for="pet-weight-0-25">Вес</label>
+                  <div class="radio-container">
+                    <input id="pet-weight-0-25" name="pet-weight" type="radio" value="0-25"></input>
+                    <label for="pet-weight-0-25">0-2 Кг</label>
+                    <input id="pet-weight-25-50" name="pet-weight" type="radio" value="25-50"></input>
+                    <label for="pet-weight-25-50">2-4 Кг</label>
+                    <input id="pet-weight-50-100" name="pet-weight" type="radio" value="50-100"></input>
+                    <label for="pet-weight-50-100">4-6 Кг</label>
+                    <input id="pet-weight-100-plus" name="pet-weight" type="radio" value="100+"></input>
+                    <label for="pet-weight-100-plus">6+ Кг</label>
+                  </div>
+                </div>
+              </header>
+              <footer>
+                <div class="set">
+                  <button type="button" id="next">Дальше</button>
+                </div>
+              </footer>
+            </div>
+          </div>
+          <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+      <div class="wrapper">
+          <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="about.html">О&#160;нас</a></li>
+              <li><a href="gallery.html">Галерея</a></li>
+              <li><a href="register.html">Оформление</a></li>
+          </ul>
+      </div>
+    </body>
+    <script>
+      var nextButton = document.getElementById("next");
+      nextButton.onclick = () => alert("Вы и ваш петомец наши рабы)");
+    </script>
+</html>
